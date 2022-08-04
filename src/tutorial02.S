@@ -29,9 +29,10 @@ entry:
     // 
     // Using an "and" instruction clear only bits 2, 3 and 5 of R1.
     
-    ldi r18, 0b11010011
-    and r16, r18
+    ldi r18, 0b11010011  // bitmask
     mov r1, r16
+    and r16, r18
+    
     // Write your code for Ex 2.2 above this line.
     push r1
 
@@ -70,6 +71,7 @@ entry:
 
     ldi r30, 39
     ldi r31, 1
+
 
     // Write your code for Ex 2.5 above this line.
    push r30
