@@ -70,7 +70,6 @@ entry:
 
     ldi r30, 39
     ldi r31, 1
-    adiw r30, r31
 
     // Write your code for Ex 2.5 above this line.
    push r30
